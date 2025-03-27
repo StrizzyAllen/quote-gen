@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0f172a;
+    font-family: system ui, sans serif;
+    color: #e2e8f0;
+    cursor: default;
+}
+
+.heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.heading h1 {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.submit {
+    font-size: 1.2rem;
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    display: block;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.submit:hover {
+    background-color: #334155;
+    box-shadow: 0 0 10px #38bdf8aa;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 1.5rem auto;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 60ch; 
+}
+
+.quote-box {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,3);
+    margin: 1rem;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-family: "Shadows Into Light", cursive;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
